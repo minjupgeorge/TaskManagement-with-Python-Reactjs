@@ -11,7 +11,7 @@ const TaskForm = () => {
             .then(response => {
                 setTitle('');
                 setDescription('');
-    
+                // Optionally, refresh the task list
             })
             .catch(error => console.error(error));
     };
