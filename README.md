@@ -22,16 +22,21 @@ This is a simple task management application built with Python Flask for the bac
    ```bash
    git clone https://github.com/yourusername/task-manager.git
    cd task-manager
-Create a virtual environment:
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install dependencies:
+2. **Create a virtual environment**:
+   ```bash
+    python -m venv venv
+    source venv/bin/activate
+    # On Windows use `venv\Scripts\activate`
 
-pip install Flask SQLAlchemy Marshmallow
-Run the Flask app:
+2. **Install dependencies**:
+    ```bash
+    pip install Flask SQLAlchemy Marshmallow
+    
+3. **Run the Flask app**:
+    ```bash
+    python app.py
 
-python app.py
 Frontend Setup
 Navigate to the frontend directory:
 
@@ -45,6 +50,7 @@ npm start
 API Endpoints
 GET /tasks: Retrieve all tasks
 POST /task: Add a new task
+
 Project Structure
 task-manager/
 ├── app.py
